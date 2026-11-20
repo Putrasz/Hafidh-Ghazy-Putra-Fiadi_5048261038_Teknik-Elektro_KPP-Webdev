@@ -1,6 +1,4 @@
-/* =========================================
-   1. VARIABLES
-   ========================================= */
+/* VARIABLES */
 :root {
   --bg: #faf9f6;
   --surface: #ffffff;
@@ -18,9 +16,7 @@
   --shadow: 6px 6px 0 var(--text);
 }
 
-/* =========================================
-   2. RESET & BASE
-   ========================================= */
+/* RESET & BASE */
 *,
 *::before,
 *::after {
@@ -62,9 +58,7 @@ address {
   font-style: normal;
 }
 
-/* =========================================
-   3. NAVBAR
-   ========================================= */
+/* NAVBAR */
 .site-header {
   position: sticky;
   top: 0;
@@ -118,9 +112,7 @@ address {
   border-color: var(--accent);
 }
 
-/* =========================================
-   4. HERO
-   ========================================= */
+/* HERO */
 .hero {
   max-width: var(--container);
   margin: 0 auto;
@@ -234,32 +226,7 @@ address {
   font-weight: 500;
 }
 
-/* SVG art colors */
-.art-bg-warm {
-  fill: #f3e3d3;
-}
-.art-bg-cool {
-  fill: #e7e4dc;
-}
-.art-dark {
-  fill: var(--text);
-}
-.art-light {
-  fill: var(--surface);
-}
-.art-accent {
-  fill: var(--accent);
-}
-.art-accent-soft {
-  fill: var(--accent-soft);
-}
-.art-stroke-light {
-  stroke: var(--surface);
-}
-
-/* =========================================
-   5. EVENTS (Tentang & Rangkaian Acara)
-   ========================================= */
+/* EVENTS */
 .section {
   max-width: var(--container);
   margin: 0 auto;
@@ -362,9 +329,7 @@ address {
   color: var(--text-muted);
 }
 
-/* =========================================
-   6. INFO STRIP
-   ========================================= */
+/* INFO STRIP */
 .info-strip {
   display: flex;
   justify-content: space-between;
@@ -400,9 +365,7 @@ address {
   font-size: 1.4rem;
 }
 
-/* =========================================
-   7. FOOTER
-   ========================================= */
+/* FOOTER */
 .site-footer {
   max-width: var(--container);
   margin: 96px auto 0;
@@ -460,9 +423,7 @@ address {
   border-top: 1px solid var(--border);
 }
 
-/* =========================================
-   8. RESPONSIVE
-   ========================================= */
+/* RESPONSIVE */
 @media (max-width: 1024px) {
   .program-grid {
     grid-template-columns: repeat(2, 1fr);
